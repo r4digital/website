@@ -2,13 +2,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
   background-color: #fff;
+  overflow: hidden;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .logo {
   font-family: 'Open Sans', sans-serif;
   background-color: #025;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
   display: block;
   width: 150px;
@@ -20,4 +29,7 @@ body {
   left: 50%;
   margin-left: -75px;
   margin-top: -75px;
+  z-index: 8000;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.2);
 }
