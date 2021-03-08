@@ -24,6 +24,7 @@ destination: release
 
 # Name of website
 title: R4 Digital
+noindex: true
 
 # Facebook App ID
 #fb_app_id: ""
