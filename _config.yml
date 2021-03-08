@@ -1,1 +1,5 @@
 include: [".well-known"]
+exclude: ["Gemfile", "Gemfile.lock", "package.json"]
+timezone: America/Sao_Paulo
+encoding: utf-8
+title: R4 Digital
