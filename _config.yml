@@ -20,7 +20,6 @@ timezone: America/Sao_Paulo
 encoding: utf-8
 layout: default
 source: src
-destination: release
 
 # Name of website
 title: R4 Digital
