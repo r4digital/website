@@ -1,5 +1,31 @@
-include: [".well-known"]
-exclude: ["Gemfile", "Gemfile.lock", "package.json"]
+include:
+  - ".well-known"
+  - ".htaccess"
+
+# Exclude these files from production site
+exclude:
+  - package.json
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-sitemap
+
+# Output options
 timezone: America/Sao_Paulo
 encoding: utf-8
+layout: default
+source: src
+destination: release
+
+# Name of website
 title: R4 Digital
+
+# Facebook App ID
+#fb_app_id: ""
+
+
