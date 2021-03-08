@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div id="background"></div>
+<div class="logo">
+  <img src="/favicon.svg" alt="R4 Digital">
+</div>
+
+<script src="/js/three.r119.min.js"></script>
+<script src="/js/vanta.waves.min.js"></script>
+<script>
+  VANTA.WAVES({
+    el: "#background",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    mouseControls: false,
+    touchControls: false,
+    gyroControls: false,
+    color: '#025',
+    waveSpeed: 0.7,
+    shininess: 64,
+    waveHeight: 11,
+});
+</script>
