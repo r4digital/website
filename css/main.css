@@ -26,5 +26,5 @@ body {
 }
 
 .logo img {
-  border-radius: 15px;
+  max-width: 100%;
 }
